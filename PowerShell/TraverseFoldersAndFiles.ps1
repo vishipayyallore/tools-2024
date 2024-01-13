@@ -2,7 +2,7 @@ param(
     [string]$path
 )
 
-$ignoreList = @("bin", "obj")
+$ignoreList = @("bin", "obj", ".next", "node_modules")
 
 function Get-FolderAndFiles($folderPath, $indentLevel) {
     $items = Get-ChildItem $folderPath
