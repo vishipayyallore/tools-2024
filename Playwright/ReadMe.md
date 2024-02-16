@@ -1,5 +1,10 @@
 # Playwright Automation
 
+```bash
+npx playwright test --debug --headed
+npx playwright test --debug --headed getipdetails.spec.ts
+```
+
 Inside that directory, you can run several commands:
 
   npx playwright test
