@@ -3,7 +3,7 @@
 # Usage: PowerShell.exe -ExecutionPolicy Bypass -File "D:\GitHub\tools-2024\PowerShell\ListStructure.ps1" -Path .
 param (
     [string]$Path = (Get-Location),
-    [string[]]$ExcludedFolders = @("node_modules", ".next", "bin", "obj", "__pycache__", ".venv")
+    [string[]]$ExcludedFolders = @("node_modules", ".next", "bin", "obj", "__pycache__", ".venv", ".angular", ".vscode")
 )
 
 function Get-DirectoryStructure {
